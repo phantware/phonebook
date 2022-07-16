@@ -1,3 +1,8 @@
+import RegisterComponent from '../containers/Register'
+import LoginComponent from '../containers/Login'
+import ContactsComponent from '../containers/Contact'
+import CreateComponent from '../containers/CreateContact'
+
 const routes = [
   {
     path: '/auth/register',
@@ -20,3 +25,5 @@ const routes = [
     title: 'Create Contact',
   },
 ]
+
+export default routes
