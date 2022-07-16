@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const LoginContainer = () => {
   return (
     <div>
       <h1>LoginContainer</h1>
+      <Link to='/auth/register'>Register here</Link>
     </div>
   )
 }
