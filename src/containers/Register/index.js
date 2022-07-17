@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import Header from '../../components/Header'
 import register from '../../context/actions/registar'
 
 const RegisterContainer = () => {
@@ -9,6 +10,7 @@ const RegisterContainer = () => {
 
   return (
     <div>
+      <Header />
       <h1>RegisterContainer</h1>
 
       <Link to='/auth/login'>Login here</Link>
