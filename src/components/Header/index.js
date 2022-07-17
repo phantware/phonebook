@@ -5,7 +5,6 @@ import phonebook2 from '../../assets/images/phonebook2.svg'
 
 const Header = () => {
   const { pathname } = useLocation()
-  console.log('location', pathname)
   return (
     <div>
       <Menu secondary pointing>
