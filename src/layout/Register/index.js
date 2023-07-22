@@ -8,7 +8,9 @@ import {
   Segment,
 } from 'semantic-ui-react'
 
-const RegisterUI = ({ form: { form, onChange, registerFormValidator } }) => {
+const RegisterUI = ({
+  form: { form, onChange, registerFormValidator, onSubmit },
+}) => {
   return (
     <div>
       <Header />
@@ -73,6 +75,7 @@ const RegisterUI = ({ form: { form, onChange, registerFormValidator } }) => {
                 fluid
                 type='submit'
                 primary
+                onClick={onSubmit}
               >
                 Submit
               </Button>

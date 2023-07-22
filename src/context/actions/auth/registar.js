@@ -1,8 +1,8 @@
-import axiosInstance from '../../helpers/axios'
+import axiosInstance from '../../../helpers/axios'
 
 const register = () => {
   axiosInstance
-    .post('/auth/post')
+    .post('/auth/post', {})
     .then((post) => console.log('post', post))
     .catch((err) => console.log('err', err))
 }

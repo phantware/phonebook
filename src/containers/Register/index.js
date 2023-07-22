@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-import register from '../../context/actions/registar'
+import register from '../../context/actions/auth/registar'
 import RegisterUI from '../../layout/Register'
 import useForm from './useForm'
 
